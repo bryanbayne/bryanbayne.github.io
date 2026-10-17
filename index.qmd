@@ -1,6 +1,6 @@
 ---
-title: "Bryan Trannin Bayne"
-image: images/headshot.svg   # ← change to images/headshot.jpg once you add your photo
+title: "Bryan Bayne"
+image: images/headshot.jpg
 about:
   template: trestles
   image-shape: rounded
@@ -20,14 +20,8 @@ about:
       href: mailto:bryantrannin@gmail.com
 ---
 
-I am a PhD student in Political Science at [American University](https://www.american.edu/spa/gov/) in Washington, DC, specializing in political methodology and comparative politics. My research sits at the intersection of **comparative politics, political economy, and data science**, with a focus on the politics of energy and climate — how infrastructure failures, energy transitions, and new energy demands shape electoral behavior and regulatory accountability.
+I am a PhD student in Political Science at [American University](https://www.american.edu/spa/gov/) in Washington, DC, working in comparative politics and political methodology.
 
-Before my PhD, I completed a dual M.A. in European Studies at Palacký University and Uppsala University, and I bring several years of experience in quantitative research, statistical modeling in R, GIS, and policy-facing writing.
+I study how climate shocks and the infrastructure that fails after them shape democratic accountability. When storms knock out power, when new data centers strain the grid, or when energy prices rise, who do voters hold responsible, and how do they respond at the ballot box? My work combines original geospatial data with causal inference designs, mostly in R, and spans Brazil, the United States, and Japan.
 
-## News
-
-::: {.news-list}
-- [Jul 2026]{.news-date} New working paper: estimating the duration and electoral consequences of widespread blackouts in São Paulo. <!-- placeholder — update -->
-- [Jun 2026]{.news-date} Fielding a conjoint survey experiment on voter responses to AI data centers ahead of the Georgia PSC elections. <!-- placeholder — update -->
-- [Aug 2024]{.news-date} Started the PhD program in Political Science at American University.
-:::
+I also coordinate outreach for [CLIPPS](https://www.american.edu/spa/cep/), an NSF-funded expert survey of climate laws and institutions in roughly 80 countries.

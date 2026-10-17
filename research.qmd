@@ -2,40 +2,47 @@
 title: "Research"
 ---
 
-My research agenda examines the **political economy of energy and climate**: how physical infrastructure — its failures, its expansion, and the institutions that regulate it — shapes voting behavior and democratic accountability. Methodologically, I work with causal inference designs (difference-in-differences, panel methods), spatial data and GIS, survey experiments, and statistical machine learning, almost entirely in R.
+My research asks how voters respond when climate shocks and energy infrastructure become politically visible, and what that means for accountability. I work with original geospatial data and causal inference designs, mostly in R.
 
 ## Working papers
 
 ::: {.paper-entry}
-[Power Outages and Voting Behavior in São Paulo]{.paper-title}
+[Does Democracy Die in Darkness? Storm-Driven Blackouts, Turnout, and Vote Choice in São Paulo]{.paper-title}
 
 [Working paper]{.status-badge}
 
-Widespread storm-induced blackouts in the São Paulo metropolitan region left millions of residents without power for days. This paper estimates the duration of blackout exposure at the district level — using population-weighted areal interpolation across 27,000+ census tracts — and identifies its electoral ramifications with two-way fixed effects and difference-in-differences designs, including heterogeneous effects in high-vulnerability districts.
+- **Question.** Disasters reach voters less through wind and water than through the services that fail afterwards. When a windstorm cut power to millions of São Paulo residents between the two rounds of the 2024 mayoral election, did the blackout change how they voted?
+- **Data.** An original outage dataset for the city's 104 electricity distribution areas, linked to geocoded election returns from 2008 to 2024.
+- **Design.** Difference-in-differences with a continuous treatment and spatially robust inference; a two-way fixed-effects panel of mayoral runoffs; wind speed as an instrument for outage hours; rainfall and outages outside the storm window as placebos; randomization inference and entropy balancing.
+- **Finding.** The incumbent's gain between rounds was about two points smaller in the hardest-hit quarter of the city. Turnout fell citywide, but local outages did not predict where.
 
-::: {.paper-links}
-[PDF](#){.disabled} · [Abstract](#) · [Replication materials](#) <!-- placeholder links -->
-:::
+Presented at ISA, MPSA, and the ISA–AMEI joint conference.
 :::
 
 ::: {.paper-entry}
-[Do Electricity Regulators Face Voter Backlash over AI Data Centers?]{.paper-title}
+[Watt Drives Voters: The Politics of AI Data Center Energy Demand in Georgia's Public Service Commission Election]{.paper-title}
 
-[In progress]{.status-badge}
+[Working paper]{.status-badge}
 
-Do voters who live near AI data centers turn out at higher rates — and punish incumbents — in the elections that regulate their electricity? This mixed-method project studies the 2025 Georgia Public Service Commission elections, combining a spatially weighted difference-in-differences design using observational returns with a conjoint survey experiment to test the mechanisms behind voter backlash.
-
-::: {.paper-links}
-[Pre-analysis plan](#) · [Abstract](#) <!-- placeholder links -->
-:::
+- **Question.** Georgia is one of ten U.S. states that elect their electricity regulators. As AI data centers drive up electricity demand, do voters hold those regulators accountable?
+- **Data.** A county-level panel of data-center openings linked to election returns and survey data.
+- **Design.** Synthetic control, synthetic difference-in-differences, and spatial spillover models.
 :::
 
-## Other research interests
+::: {.paper-entry}
+[Decoupling Without Democracy: Does Economic Openness Drive Green Transitions in Authoritarian States?]{.paper-title}
 
-**Comparative climate politics.** I am broadly interested in how democracies manage the distributive politics of the energy transition — cross-national variation in climate policy ambition, expert and public opinion on climate policy instruments, and the political geography of energy infrastructure siting.
+[Working paper]{.status-badge}
 
-**Earlier work.** My M.A. thesis analyzed Swedish forest policy conflicts using content analysis and process tracing, examining how competing framings of sustainability shaped policy outcomes in European climate and forest governance.
+- **Question.** Can trade openness push autocracies to decouple growth from emissions, absent electoral pressure?
+- **Data.** A panel of 165 countries, 2001–2023.
+- **Design.** Staggered difference-in-differences, synthetic control, and machine-learning screening of mechanisms.
+:::
+
+## Work in progress
+
+**Disasters, blackouts, and voting in Japan.** Extending the São Paulo design to prolonged typhoon and earthquake blackouts in Japan, to ask whether voters blame utilities, local governments, or the governing parties.
 
 ## Methods
 
-Causal inference (DiD, two-way fixed effects, panel data) · spatial analysis and GIS (areal interpolation, spatial weighting) · survey and conjoint experiments · text analysis · statistical machine learning · data visualization (ggplot2, ArcGIS)
+Difference-in-differences and event studies · synthetic control and synthetic DiD · instrumental variables · randomization inference · spatial econometrics and areal interpolation · statistical machine learning · expert surveys · R (fixest, sf, spdep, tidyverse)
