@@ -1,0 +1,334 @@
+/*-- scss:defaults --*/
+
+// ── Fonts ────────────────────────────────────────────────────────────────
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=Inter:wght@400;500;600;700&display=swap');
+
+$font-family-base: "Source Serif 4", Georgia, "Times New Roman", serif;
+$headings-font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+$font-family-sans-serif: "Inter", "Helvetica Neue", Arial, sans-serif;
+
+$font-size-base: 1.05rem;
+$line-height-base: 1.75;
+$headings-font-weight: 600;
+$headings-line-height: 1.3;
+
+// ── Palette ──────────────────────────────────────────────────────────────
+$navy:     #1a2e4a;   // primary — headings, navbar text
+$charcoal: #2d3748;   // body text
+$accent:   #4a7c9e;   // steel blue — links, highlights
+$offwhite: #fafafa;   // page background
+
+$primary:    $navy;
+$body-bg:    $offwhite;
+$body-color: $charcoal;
+$link-color: $accent;
+$link-decoration: none;
+$link-hover-color: darken($accent, 12%);
+$link-hover-decoration: underline;
+
+// ── Navbar ───────────────────────────────────────────────────────────────
+$navbar-bg: $offwhite;
+$navbar-fg: $navy;
+$navbar-hl: $accent;
+
+// ── Footer ───────────────────────────────────────────────────────────────
+$footer-bg: $offwhite;
+$footer-fg: lighten($charcoal, 25%);
+
+// ── Code ─────────────────────────────────────────────────────────────────
+$code-color: $navy;
+$code-bg: #eef1f4;
+
+/*-- scss:rules --*/
+
+// ── Global rhythm ────────────────────────────────────────────────────────
+.content {
+  padding-bottom: 3rem;
+}
+
+h1, h2, h3, h4 {
+  color: $navy;
+  letter-spacing: -0.01em;
+}
+
+h1 {
+  font-size: 1.9rem;
+  margin-bottom: 1.25rem;
+}
+
+h2 {
+  font-size: 1.35rem;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid #e2e6ea;
+}
+
+h3 {
+  font-size: 1.1rem;
+  margin-top: 1.75rem;
+}
+
+// ── Navbar ───────────────────────────────────────────────────────────────
+.navbar {
+  border-bottom: 1px solid #e2e6ea;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+
+  .navbar-brand {
+    font-family: $headings-font-family;
+    font-weight: 600;
+    font-size: 1.05rem;
+    letter-spacing: 0.01em;
+  }
+
+  .nav-link {
+    font-family: $headings-font-family;
+    font-size: 0.92rem;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+}
+
+// ── About page (homepage) ───────────────────────────────────────────────
+div.quarto-about-trestles {
+  .about-entity {
+    .about-image {
+      border-radius: 8px;
+    }
+    .about-links {
+      justify-content: flex-start;
+      gap: 0.4rem;
+    }
+    .about-link {
+      font-family: $headings-font-family;
+      font-size: 0.85rem;
+      font-weight: 500;
+      color: $navy;
+      border: 1px solid #d3dae2;
+      border-radius: 6px;
+      transition: all 0.15s ease;
+
+      &:hover {
+        background-color: $navy;
+        border-color: $navy;
+        color: #fff;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+// ── News list (homepage) ─────────────────────────────────────────────────
+.news-list {
+  list-style: none;
+  padding-left: 0;
+
+  li {
+    margin-bottom: 0.6rem;
+    padding-left: 0;
+  }
+
+  .news-date {
+    font-family: $headings-font-family;
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: $accent;
+    margin-right: 0.5rem;
+    white-space: nowrap;
+  }
+}
+
+// ── Paper / project entries (research page) ─────────────────────────────
+.paper-entry {
+  margin-bottom: 2.25rem;
+  padding-left: 1.1rem;
+  border-left: 3px solid #dde3e9;
+
+  .paper-title {
+    font-family: $headings-font-family;
+    font-size: 1.08rem;
+    font-weight: 600;
+    color: $navy;
+    margin-bottom: 0.15rem;
+  }
+
+  .paper-authors {
+    font-size: 0.95rem;
+    color: lighten($charcoal, 15%);
+    margin-bottom: 0.35rem;
+  }
+
+  .paper-links {
+    font-family: $headings-font-family;
+    font-size: 0.85rem;
+
+    a {
+      margin-right: 0.9rem;
+    }
+  }
+}
+
+.status-badge {
+  display: inline-block;
+  font-family: $headings-font-family;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: $accent;
+  background-color: rgba(74, 124, 158, 0.1);
+  border-radius: 4px;
+  padding: 0.15rem 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+// ── Consulting: service list & portfolio cards ──────────────────────────
+.service-grid {
+  .g-col-12 {
+    background: #fff;
+    border: 1px solid #e2e6ea;
+    border-radius: 8px;
+    padding: 1.1rem 1.3rem;
+
+    h4 {
+      margin-top: 0;
+      font-size: 0.98rem;
+    }
+
+    p {
+      font-size: 0.94rem;
+      margin-bottom: 0;
+      color: lighten($charcoal, 10%);
+    }
+  }
+}
+
+.portfolio-card {
+  background: #fff;
+  border: 1px solid #e2e6ea;
+  border-radius: 8px;
+  padding: 1.4rem 1.5rem;
+  margin-bottom: 1.5rem;
+  transition: box-shadow 0.15s ease;
+
+  &:hover {
+    box-shadow: 0 4px 14px rgba(26, 46, 74, 0.08);
+  }
+
+  h3 {
+    margin-top: 0;
+    font-size: 1.05rem;
+  }
+
+  .tools {
+    font-family: $headings-font-family;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: $accent;
+    letter-spacing: 0.03em;
+    margin-bottom: 0.5rem;
+  }
+}
+
+.cta-box {
+  background: $navy;
+  border-radius: 10px;
+  color: #fff;
+  padding: 2rem 2.25rem;
+  margin-top: 2.5rem;
+  text-align: center;
+
+  h3 {
+    color: #fff;
+    margin-top: 0;
+  }
+
+  p {
+    color: rgba(255, 255, 255, 0.85);
+  }
+
+  .btn-cta {
+    display: inline-block;
+    font-family: $headings-font-family;
+    font-weight: 600;
+    font-size: 0.95rem;
+    color: $navy;
+    background: #fff;
+    border-radius: 6px;
+    padding: 0.6rem 1.5rem;
+    margin-top: 0.5rem;
+
+    &:hover {
+      background: #e8edf2;
+      text-decoration: none;
+    }
+  }
+}
+
+// ── CV page ──────────────────────────────────────────────────────────────
+.cv-entry {
+  margin-bottom: 1.4rem;
+
+  .cv-title {
+    font-family: $headings-font-family;
+    font-weight: 600;
+    font-size: 1rem;
+    color: $navy;
+    margin-bottom: 0;
+  }
+
+  .cv-detail {
+    font-size: 0.95rem;
+    color: lighten($charcoal, 12%);
+  }
+
+  .cv-date {
+    float: right;
+    font-family: $headings-font-family;
+    font-size: 0.85rem;
+    color: lighten($charcoal, 25%);
+  }
+}
+
+.btn-download {
+  display: inline-block;
+  font-family: $headings-font-family;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #fff !important;
+  background: $navy;
+  border-radius: 6px;
+  padding: 0.5rem 1.2rem;
+  margin-bottom: 1.5rem;
+
+  &:hover {
+    background: lighten($navy, 8%);
+    text-decoration: none;
+  }
+}
+
+// ── Blog listing ─────────────────────────────────────────────────────────
+.quarto-listing {
+  .listing-title a {
+    font-family: $headings-font-family;
+    font-weight: 600;
+    color: $navy;
+
+    &:hover {
+      color: $accent;
+    }
+  }
+}
+
+// ── Footer ───────────────────────────────────────────────────────────────
+.nav-footer {
+  border-top: 1px solid #e2e6ea;
+  padding-top: 1.25rem;
+  padding-bottom: 1.5rem;
+  font-family: $headings-font-family;
+  font-size: 0.85rem;
+}

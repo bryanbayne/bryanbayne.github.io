@@ -1,0 +1,33 @@
+---
+title: "Bryan Trannin Bayne"
+image: images/headshot.svg   # ← change to images/headshot.jpg once you add your photo
+about:
+  template: trestles
+  image-shape: rounded
+  image-width: 15em
+  links:
+    - icon: file-earmark-pdf
+      text: CV
+      href: files/cv.pdf
+    - icon: github
+      text: GitHub
+      href: https://github.com/bryanbayne
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/bryan-bayne
+    - icon: envelope
+      text: Email
+      href: mailto:bryantrannin@gmail.com
+---
+
+I am a PhD student in Political Science at [American University](https://www.american.edu/spa/gov/) in Washington, DC, specializing in political methodology and comparative politics. My research sits at the intersection of **comparative politics, political economy, and data science**, with a focus on the politics of energy and climate — how infrastructure failures, energy transitions, and new energy demands shape electoral behavior and regulatory accountability.
+
+Before my PhD, I completed a dual M.A. in European Studies at Palacký University and Uppsala University, and I bring several years of experience in quantitative research, statistical modeling in R, GIS, and policy-facing writing.
+
+## News
+
+::: {.news-list}
+- [Jul 2026]{.news-date} New working paper: estimating the duration and electoral consequences of widespread blackouts in São Paulo. <!-- placeholder — update -->
+- [Jun 2026]{.news-date} Fielding a conjoint survey experiment on voter responses to AI data centers ahead of the Georgia PSC elections. <!-- placeholder — update -->
+- [Aug 2024]{.news-date} Started the PhD program in Political Science at American University.
+:::

@@ -1,0 +1,81 @@
+---
+title: "Consulting & Portfolio"
+---
+
+I help organizations answer hard empirical questions. As a Political Science PhD researcher with a background in **quantitative methods, R, and GIS**, I work with think tanks, advocacy organizations, campaigns, and firms that need rigorous research design and clear, decision-ready analysis — from one-off statistical reviews to end-to-end research projects.
+
+## Services
+
+::: {.grid .service-grid}
+
+::: {.g-col-12 .g-col-md-6}
+#### Quantitative research design
+Causal inference strategy, survey and experimental design, power analysis, and pre-registration — designing studies that can actually answer your question.
+:::
+
+::: {.g-col-12 .g-col-md-6}
+#### Statistical modeling in R
+Regression and panel models, difference-in-differences, machine learning, and reproducible pipelines with documented, version-controlled code.
+:::
+
+::: {.g-col-12 .g-col-md-6}
+#### Data visualization
+Publication- and briefing-quality charts and maps (ggplot2, ArcGIS) that make quantitative results legible to non-technical audiences.
+:::
+
+::: {.g-col-12 .g-col-md-6}
+#### GIS & spatial analysis
+Geocoding, areal interpolation, spatial joins, and exposure measurement — turning messy geographic data into analysis-ready variables.
+:::
+
+::: {.g-col-12 .g-col-md-6}
+#### Policy analysis
+Literature synthesis, program evaluation, and policy memos grounded in evidence — with experience in climate and energy policy on two continents.
+:::
+
+::: {.g-col-12 .g-col-md-6}
+#### Text analysis
+Content analysis, document classification, and text-as-data methods for reports, media coverage, and open-ended survey responses.
+:::
+
+:::
+
+## Selected portfolio
+
+::: {.portfolio-card}
+### Blackout exposure mapping at scale
+
+[R · ArcGIS · areal interpolation · panel data]{.tools}
+
+Built a district-level panel of electricity-outage exposure for the São Paulo metropolitan region by population-weighting data across 27,000+ census tracts, then produced publication-quality maps and trend visualizations of shortage exposure and its political consequences.
+
+[View project →](#) <!-- placeholder link -->
+:::
+
+::: {.portfolio-card}
+### Causal analysis of infrastructure and voting
+
+[R · difference-in-differences · two-way fixed effects]{.tools}
+
+Designed and estimated quasi-experimental models of how localized infrastructure shocks affect turnout and incumbent support, including heterogeneous-effects analysis for high-vulnerability communities and a spatially weighted identification strategy.
+
+[View project →](#) <!-- placeholder link -->
+:::
+
+::: {.portfolio-card}
+### Cross-national expert survey coordination
+
+[survey design · stakeholder management · 50+ countries]{.tools}
+
+Coordinated the advisory board and stakeholder communications for a cross-national climate expert survey spanning more than 50 countries, supporting instrument design, fieldwork logistics, and synthesis of findings into policy-facing memos.
+
+[View project →](#) <!-- placeholder link -->
+:::
+
+::: {.cta-box}
+### Have a project in mind?
+
+I'm currently available for short- and medium-term engagements. Tell me about your data, your question, and your timeline — I'll tell you honestly whether I'm the right fit.
+
+[Get in touch](mailto:bryantrannin@gmail.com){.btn-cta}
+:::

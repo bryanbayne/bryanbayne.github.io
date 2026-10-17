@@ -1,0 +1,41 @@
+---
+title: "Research"
+---
+
+My research agenda examines the **political economy of energy and climate**: how physical infrastructure — its failures, its expansion, and the institutions that regulate it — shapes voting behavior and democratic accountability. Methodologically, I work with causal inference designs (difference-in-differences, panel methods), spatial data and GIS, survey experiments, and statistical machine learning, almost entirely in R.
+
+## Working papers
+
+::: {.paper-entry}
+[Power Outages and Voting Behavior in São Paulo]{.paper-title}
+
+[Working paper]{.status-badge}
+
+Widespread storm-induced blackouts in the São Paulo metropolitan region left millions of residents without power for days. This paper estimates the duration of blackout exposure at the district level — using population-weighted areal interpolation across 27,000+ census tracts — and identifies its electoral ramifications with two-way fixed effects and difference-in-differences designs, including heterogeneous effects in high-vulnerability districts.
+
+::: {.paper-links}
+[PDF](#){.disabled} · [Abstract](#) · [Replication materials](#) <!-- placeholder links -->
+:::
+:::
+
+::: {.paper-entry}
+[Do Electricity Regulators Face Voter Backlash over AI Data Centers?]{.paper-title}
+
+[In progress]{.status-badge}
+
+Do voters who live near AI data centers turn out at higher rates — and punish incumbents — in the elections that regulate their electricity? This mixed-method project studies the 2025 Georgia Public Service Commission elections, combining a spatially weighted difference-in-differences design using observational returns with a conjoint survey experiment to test the mechanisms behind voter backlash.
+
+::: {.paper-links}
+[Pre-analysis plan](#) · [Abstract](#) <!-- placeholder links -->
+:::
+:::
+
+## Other research interests
+
+**Comparative climate politics.** I am broadly interested in how democracies manage the distributive politics of the energy transition — cross-national variation in climate policy ambition, expert and public opinion on climate policy instruments, and the political geography of energy infrastructure siting.
+
+**Earlier work.** My M.A. thesis analyzed Swedish forest policy conflicts using content analysis and process tracing, examining how competing framings of sustainability shaped policy outcomes in European climate and forest governance.
+
+## Methods
+
+Causal inference (DiD, two-way fixed effects, panel data) · spatial analysis and GIS (areal interpolation, spatial weighting) · survey and conjoint experiments · text analysis · statistical machine learning · data visualization (ggplot2, ArcGIS)

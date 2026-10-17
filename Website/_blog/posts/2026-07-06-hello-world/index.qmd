@@ -1,0 +1,18 @@
+---
+title: "Hello, world"
+description: "A short note on what this site is for and what I plan to write about."
+date: 2026-07-06
+categories: [meta]
+---
+
+Welcome — this is the blog section of my academic website.
+
+I plan to use this space for occasional posts on three themes:
+
+1. **Research notes** — short write-ups of methods problems I run into (spatial interpolation quirks, DiD diagnostics, survey experiment design) and how I solved them.
+2. **Energy and climate politics** — commentary on the political economy of electricity, from blackouts in Brazil to data centers in Georgia.
+3. **R and data science** — reproducible workflows, visualization, and tooling for political science research.
+
+<!-- Placeholder post — replace or expand this once the site is live. -->
+
+If any of that sounds interesting, you can subscribe via the [RSS feed](../index.xml) or find me on [GitHub](https://github.com/YOUR-GITHUB-USERNAME).

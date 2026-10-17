@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <!-- Placeholder headshot — replace by dropping headshot.jpg into images/
+       and updating the `image:` fields in index.qmd and _quarto.yml -->
+  <rect width="400" height="400" rx="12" fill="#1a2e4a"/>
+  <circle cx="200" cy="150" r="62" fill="#4a7c9e"/>
+  <path d="M 90 340 Q 90 240 200 240 Q 310 240 310 340 L 310 400 L 90 400 Z" fill="#4a7c9e"/>
+  <text x="200" y="378" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="20" fill="#fafafa" opacity="0.85">Your photo here</text>
+</svg>

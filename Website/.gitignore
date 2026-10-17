@@ -1,0 +1,15 @@
+# Quarto build outputs — docs/ is rebuilt by GitHub Actions on every push
+/.quarto/
+/docs/
+/_freeze/
+
+# R / RStudio
+.Rproj.user/
+.Rhistory
+.RData
+
+# OS
+.DS_Store
+Thumbs.db
+
+**/*.quarto_ipynb
