@@ -6,7 +6,7 @@ website:
   title: "Bryan Trannin Bayne"
   description: "PhD student in Political Science at American University working on climate and energy politics, political economy, and applied data science."
   # ── Update after you create the GitHub repo ─────────────────────────────
-  site-url: https://bryanbayne.github.io
+  site-url: https://bryanbayne.com
   repo-url: https://github.com/bryanbayne/bryanbayne.github.io
   # ────────────────────────────────────────────────────────────────────────
   favicon: images/favicon.svg
