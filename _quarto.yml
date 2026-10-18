@@ -25,7 +25,7 @@ website:
   # ────────────────────────────────────────────────────────────────────────
 
   navbar:
-    title: "Bryan Bayne"
+    title: "Bryan T. Bayne"
     pinned: true
     left:
       - text: "Home"
@@ -35,19 +35,19 @@ website:
       - text: "CV"
         href: cv.qmd
     right:
-      - icon: github
-        href: https://github.com/bryanbayne
-        aria-label: GitHub
+      - icon: mortarboard
+        href: https://scholar.google.com/citations?user=-lymYaMAAAAJ
+        aria-label: Google Scholar
       - icon: linkedin
-        href: https://www.linkedin.com/in/bryan-bayne
+        href: https://www.linkedin.com/in/bryan-bayne-8466701b4/
         aria-label: LinkedIn
       - icon: envelope
-        href: mailto:bryantrannin@gmail.com
+        href: mailto:bb9499b@american.edu
         aria-label: Email
 
   page-footer:
     center: |
-      © 2026 Bryan Bayne · Built with [Quarto](https://quarto.org)
+      © 2026 Bryan T. Bayne · Built with [Quarto](https://quarto.org)
 
 format:
   html:

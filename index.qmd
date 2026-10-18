@@ -6,18 +6,18 @@ about:
   image-shape: rounded
   image-width: 15em
   links:
-    - icon: file-earmark-pdf
-      text: CV
-      href: files/cv.pdf
-    - icon: github
-      text: GitHub
-      href: https://github.com/bryanbayne
+    - icon: mortarboard
+      text: Scholar
+      href: https://scholar.google.com/citations?user=-lymYaMAAAAJ
+    - icon: person-vcard
+      text: ORCID
+      href: https://orcid.org/0009-0005-0149-3147
     - icon: linkedin
       text: LinkedIn
-      href: https://www.linkedin.com/in/bryan-bayne
+      href: https://www.linkedin.com/in/bryan-bayne-8466701b4/
     - icon: envelope
       text: Email
-      href: mailto:bryantrannin@gmail.com
+      href: mailto:bb9499b@american.edu
 ---
 
 I am a PhD student in Political Science at [American University](https://www.american.edu/spa/gov/) in Washington, DC, working in comparative politics and political methodology.
