@@ -9,8 +9,6 @@ My research asks how voters respond when climate shocks and energy infrastructur
 ::: {.paper-entry}
 [Does Democracy Die in Darkness? Storm-Driven Blackouts, Turnout, and Vote Choice in São Paulo]{.paper-title}
 
-[Working paper]{.status-badge}
-
 - **Question.** Disasters reach voters less through wind and water than through the services that fail afterwards. When a windstorm cut power to millions of São Paulo residents between the two rounds of the 2024 mayoral election, did the blackout change how they voted?
 - **Data.** An original outage dataset for the city's 104 electricity distribution areas, linked to geocoded election returns from 2008 to 2024.
 - **Design.** Difference-in-differences with a continuous treatment and spatially robust inference; a two-way fixed-effects panel of mayoral runoffs; wind speed as an instrument for outage hours; rainfall and outages outside the storm window as placebos; randomization inference and entropy balancing.
@@ -22,8 +20,6 @@ Presented at ISA, MPSA, and the ISA–AMEI joint conference.
 ::: {.paper-entry}
 [Watt Drives Voters: The Politics of AI Data Center Energy Demand in Georgia's Public Service Commission Election]{.paper-title}
 
-[Working paper]{.status-badge}
-
 - **Question.** Georgia is one of ten U.S. states that elect their electricity regulators. As AI data centers drive up electricity demand, do voters hold those regulators accountable?
 - **Data.** A county-level panel of data-center openings linked to election returns and survey data.
 - **Design.** Synthetic control, synthetic difference-in-differences, and spatial spillover models.
@@ -31,8 +27,6 @@ Presented at ISA, MPSA, and the ISA–AMEI joint conference.
 
 ::: {.paper-entry}
 [Decoupling Without Democracy: Does Economic Openness Drive Green Transitions in Authoritarian States?]{.paper-title}
-
-[Working paper]{.status-badge}
 
 - **Question.** Can trade openness push autocracies to decouple growth from emissions, absent electoral pressure?
 - **Data.** A panel of 165 countries, 2001–2023.
